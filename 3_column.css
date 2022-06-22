@@ -1,0 +1,84 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: "Lexend Deca", sans-serif;
+  }
+  .container{
+      background-color: hsl(0, 0%, 95%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+  }
+  .ride-plan{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: stretch;
+      margin: 0 auto;
+      width: 63%;
+  }
+  #area-one{
+      background: hsl(31, 77%, 52%);
+      padding: 25px;
+      border-radius: 10px 0 0 10px;
+  }
+  #area-two{
+      background: hsl(184, 100%, 22%);
+      padding: 25px;
+  }
+  #area-three{
+      background: hsl(179, 100%, 13%);
+      padding: 25px;
+      border-radius: 0 10px 10px 0;
+  }
+  img {
+      display: block;
+      margin: 25px 15px;
+      max-height: 35px;
+  }
+  h1{
+      color: hsl(0, 0%, 95%);
+      margin: 25px 15px;
+      font-weight: 700;
+      font-size: 35px;
+      font-family: "Big Shoulders Display", cursive;
+  }
+  p{
+      color: hsla(0, 0%, 100%, 0.75);
+      line-height: 25px;
+      margin: 25px 15px;
+      font-size: 12.5px;
+      font-weight: 400;
+      font-family: "Lexend Deca", sans-serif;
+  }
+  button{
+      background-color: hsl(0, 0%, 95%);
+      border: 2px solid;
+      padding: 15px 30px;
+      border-radius: 25px;
+      display: inline-block;
+      margin: 25px 15px;
+      transition: background-color 350ms ease-in-out;
+  }
+  #btn1{
+      color: hsl(31, 77%, 52%);
+  }
+  #btn2{
+      color: hsl(184, 100%, 22%);
+  }
+  #btn3{
+      color: hsl(179, 100%, 13%);
+  }
+  
+  #btn1:hover, #btn2:hover, #btn3:hover {
+      border: 2px solid hsl(0, 0%, 95%);
+      color: hsl(0, 0%, 95%);
+      background: none;
+      cursor: pointer;
+  }
